@@ -73,26 +73,51 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # Netflix cgpt 
 
--create react App 
--configured tailwind css
--Header 
--Login Form
+* create React App
+
+* configured TailwindCSS
+
+* Header
+
+* Routing of App
+
+* Login Form
+
+* Sign up Form 
+
+* Form validation 
+
+* useRef Hook 
+
+* Firebase Setup 
+
+* Deploying our app to proudction 
+* create signUp User Account
+
+* Implement Sign In User Api 
+
+* Created Reduz Store with userSlice
+
+* implemented Sign out 
+
+* update profile api call 
+
 
 
 # Features 
 
--Login/Sign Up
+- Login/Sign Up
   - Sign In / Sign up form 
-  -redirect to browse page
+  - redirect to browse page
 
--Browse page (after authentication)
-  -Header/
-  -Main movie/
+- Browse page (after authentication)
+  - Header/
+  - Main movie/
     - trailer in Background 
-    -Title / description
-    -MovieSuggestions 
+    - Title / description
+    - MovieSuggestions 
       - MovieLists + N
 
--NetFlixCGPT
-    -Search Bar 
-    -Movie Suggestions
+- NetFlixCGPT
+    - Search Bar 
+    - Movie Suggestions
