@@ -73,35 +73,58 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # Netflix cgpt 
 
-* create React App
+- create React App
 
-* configured TailwindCSS
+- configured TailwindCSS
 
-* Header
+- Header
 
-* Routing of App
+- Routing of App
 
-* Login Form
+- Login Form
 
-* Sign up Form 
+- Sign up Form 
 
-* Form validation 
+- Form validation 
 
-* useRef Hook 
+- useRef Hook 
 
-* Firebase Setup 
+- Firebase Setup 
 
-* Deploying our app to proudction 
-* create signUp User Account
+- Deploying our app to proudction 
+- create signUp User Account
 
-* Implement Sign In User Api 
+- Implement Sign In User Api 
 
-* Created Reduz Store with userSlice
+- Created Reduz Store with userSlice
 
-* implemented Sign out 
+- implemented Sign out 
 
-* update profile api call 
+- update profile api call 
 
+- BugFix:Sign Up user displayName and profile picture updated 
+
+- BugFix:if the  user is not Logged in Redirect / browse to login page and vice-versa
+
+- unsubscribed to the onAuthStateChanged callback
+
+- Add hardcoded values to the constants file (IMP)
+
+- Register TMDB API & Create an App & get access token 
+
+- Get Data From TMBD now playing movies List API
+
+- custom Hook For Now Playing Movies 
+
+- create movieSlice
+
+- Update Store With Movies Data
+
+-Planning for MainContainer & Secondary Container
+- Fetch Data for Trailer Video 
+- Update Store with Trailer Video Data 
+- Embedded the Youtube video and make it autoplay and mute 
+- Tailwind classes to make main Container look Awesome
 
 
 # Features 
