@@ -131,8 +131,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - Build Movie Card 
 - TMDB Image CDN URL 
 - Made the Browse page amazing with Tailwind CSS 
--usPopularMovies Custom Hook 
-
+- usPopularMovies Custom Hook 
+- GPT Search Psge 
+- GPT Search Bar 
+- Multi-language feature in Our App
+ 
 
 
 # Features 
