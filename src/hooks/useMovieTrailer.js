@@ -9,6 +9,7 @@ const useMovieTrailer=(movieId)=>{
     const dispatch=useDispatch();
     
 
+    
 
 
 // fetch trailer video && updating the store
@@ -27,7 +28,7 @@ const useMovieTrailer=(movieId)=>{
     }
 
     useEffect(()=>{
-        getMovieVideo();
+      getMovieVideo();
     },[])
 
 }

@@ -135,7 +135,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - GPT Search Psge 
 - GPT Search Bar 
 - Multi-language feature in Our App
- 
+- GET Open AI key
+- Gpt Search API Call
+- Fetched getMovieSuggestions from TMDB 
+- created gptSlice added data
+- Reused Movie List compoonent to make movie suggestion container
+- Memorization
+- adding .env file
+- adding .env file to gitignore 
+- made our site Responsive 
 
 
 # Features 
