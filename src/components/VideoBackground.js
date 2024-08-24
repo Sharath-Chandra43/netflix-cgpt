@@ -8,7 +8,7 @@ const VideoBackground=({movieId})=>{
     const trailerVideo=useSelector(store=>store.movies?.trailerVideo);
     useMovieTrailer(movieId);
 
-    return <div className="w-screen">
+    return <div className="w-screen lg:w-screen">
 
             <iframe 
                 className="w-screen aspect-video"

@@ -54,8 +54,8 @@ const promiseArrya=gptMovies.map(movie=>searchMovieTMDB(movie))
 };
 
   return (
-    <div className='pt-[35%] md:pt-[10%] flex justify-center'>
-      <form className='w-full md:w-1/2 bg-black grid grid-cols-12 ' onSubmit={(e)=>e.preventDefault()}>
+    <div className='pt-[45%] md:pt-[12%] flex justify-center p-4'>
+      <form className='w-full md:w-1/2 bg-slate-500 bg-opacity-60 grid grid-cols-12 ' onSubmit={(e)=>e.preventDefault()}>
         <input ref={searchText} type="text" className='p-4 m-4 col-span-9' placeholder={lang[langKey].sptSearchPlaceHolder} />
         <button className='py-2 px-4 col-span-3 m-4 bg-red-700 text-white rounded-lg ' onClick={handleGptSearchClick}>{lang[langKey].search}</button>
       </form>
