@@ -23,4 +23,4 @@ const usePopularMovies = () => {
   }, []);
 };
 
-export default usePopularMovies;
+export default usePopularMovies; 
