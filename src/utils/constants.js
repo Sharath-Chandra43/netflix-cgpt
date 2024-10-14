@@ -10,9 +10,12 @@ export const API_OPTIONS = {
   headers: {
     accept: "application/json",
     Authorization: `Bearer ${process.env.REACT_APP_TMDB}`
+    
   },
+  
 };
 
+console.log(`${process.env.REACT_APP_TMDB}`)
 export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500";
 
 export const BG_URL =
