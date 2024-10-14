@@ -12,12 +12,17 @@ const useNowPlayingMovies = () => {
   );
 
   const getNowPlayingMovies = async () => {
-    const data=await fetch(
-    "https://api.themoviedb.org/3/movie/now_playing?language=en-US&page=1",
-      API_OPTIONS
-    );
-    const json = await data.json();
-    dispatch(addNowPlayingMovies(json.results));
+    try {
+      const response = await fetch(
+        "https://api.themoviedb.org/3/movie/now_playing?language=en-US&page=1",
+        API_OPTIONS
+      );
+      const json = await response.json();
+      dispatch(addNowPlayingMovies(json.results));
+    } catch (error) {
+      console.error('Error fetching now playing movies:', error);
+      // Handle the error appropriately, e.g., display an error message to the user
+    }
   };
 
   useEffect(() => {
